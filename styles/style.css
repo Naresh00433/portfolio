@@ -166,11 +166,21 @@ section.about{
     font-size: 35px ;
     color: darkorange;
     font-weight: bold;
-                    
 }
 
 .righttext button{
     font-size: 23px;
     margin-top: 50px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.icons img{
+    width: 4%;
+    height: 60px;
+    left: 0;
+    float: right;
+    margin-top: 40%;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    z-index: 1;
 }
