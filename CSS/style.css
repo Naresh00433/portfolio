@@ -1,0 +1,143 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:content-box;
+}
+
+.header{
+    background-color: black;
+    height: 680px;
+}
+
+.navbar ul li{
+    float: left;
+    margin: 70px 70px 80px 70px;
+    margin-left: 200px;
+    font-size: 20px;
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    border-radius: 25px;
+}
+
+.navbar ul li a:hover{
+    color: darkorange;
+    border-bottom: 5px solid darkorange;
+    transition: ease-in;
+    transition-delay: 0.1s;
+    transition-duration: 0.2s;
+}
+
+.lefttext {
+    text-align: left;
+    position: absolute;
+    top: 40%;
+    margin-left: 120px;
+    font-size: 50px;
+    color: aliceblue;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hellotext{
+    color: darkorange;
+}
+
+.webd{
+    border-bottom: 4px solid darkorange;
+    padding-bottom: 20px;
+}
+
+.name{
+    animation-name: nameAnimation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes nameAnimation{
+    from{color: aliceblue;}
+    to{color: darkorange;}
+}
+
+section.project{
+    padding:3rem 0;
+}
+
+section.project{
+    height: 600px;
+    background-color: aliceblue;
+    /* border-bottom: 5px solid darkorange; */
+}
+
+.heading{
+    text-align: center;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    animation-name: headingAnimation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes headingAnimation{
+    25%{}
+    50%{color: red;}
+    75%{color: darkorange;}
+}
+
+.projectimage{
+    margin: 30px 0;
+}
+
+.project img{
+    width: 40%;
+    height: 350px;
+    margin-top: 3%;
+    box-shadow: 10px 10px 8px 10px black;
+    margin-left: 95px;
+}
+
+.project img:hover{
+    transform: scale(1.09);
+}
+
+.projecttittle h2{
+    float: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 25px;
+}
+
+.projecttittle .t1{
+    margin-left: 11%;
+}
+
+.projecttittle .t2{
+    margin-left: 21%;
+}
+
+section.resume{
+    padding:3rem 0;
+    height: 950px;
+}
+
+.resume{
+    margin: 30px 0;
+}
+
+.resume img{
+    float: left;
+    width: 45%;
+    height: 950px;
+    margin-left: 50px;
+}
+
+section.about{
+    height: 600px;
+    background-color: white;
+}
+
+.about{
+    margin: 50px 0;
+}
