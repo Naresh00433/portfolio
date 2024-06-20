@@ -134,10 +134,42 @@ section.resume{
 }
 
 section.about{
-    height: 600px;
-    background-color: white;
+    height: 800px;
 }
 
-.about{
-    margin: 50px 0;
+.leftImg{
+    height: 0;
+}
+
+.leftImg img{
+    width: 29%;
+    height: 575px;
+    margin-top: 4%;
+    margin-left: 100px;
+}
+
+.righttext{
+    margin-left: 40%;
+    text-align: center;
+    margin-top: 10%;
+    line-height: 49px;
+    font-size: 25px;
+}
+
+.Name{
+    font-size: 35px ;
+    color: darkorange;
+    font-weight: bold;
+}
+
+.place{
+    font-size: 35px ;
+    color: darkorange;
+    font-weight: bold;
+}
+
+.righttext button{
+    font-size: 23px;
+    margin-top: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
