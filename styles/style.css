@@ -6,7 +6,7 @@
 
 .header{
     background-color: black;
-    height: 680px;
+    height: 700px;
 }
 
 .navbar ul li{
@@ -60,6 +60,11 @@
 @keyframes nameAnimation{
     from{color: aliceblue;}
     to{color: darkorange;}
+}
+
+.rightimg img{
+    width: 30%;
+    margin-left: 60%;
 }
 
 section.project{
